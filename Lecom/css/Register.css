@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(135deg, #333, #000); /* Fixed space issue here */
+    color: #cd7f32; /* Gold text color */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h2 {
+    color: #cd7f32;
+}
+
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30%;
+    margin: 1.5%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+/* Add the following styles to center the container */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to control the vertical centering */
+}
+
+/* Add the following styles to style the form container */
+.register-container,
+.login-container {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.register-container {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #333, #000); /* Set the background color to black */
+    color: #cd7f32; /* Gold text color */
+}
+
+/* CSS in your Register.css file */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    background: linear-gradient(135deg, #333, #000); /* Gradient black background */
+    color: #cd7f32; /* Gold text color */
+    border: 2px solid #000; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Add some space between inputs */
+}
+
+button {
+    background-color: #cd7f32; /* Gold background for button */
+    color: #000; /* White text color */
+    border: none; /* Remove button border */
+    padding: 8px 16px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+button:hover {
+    background-color: #b07039; /* Darker gold color on hover */
+}
+
+/* CSS for Navbar */
+.navbar {
+    background: linear-gradient(135deg, #222, #333); /* Gradient black background */
+}
+
+.navbar-brand {
+    color: #cd7f32 !important;
+}
+
+.navbar-brand:hover {
+    color: #fff; /* Change color on hover */
+}
+
+.navbar-nav .nav-link {
+    color: #cd7f32; /* Gold text color */
+}
+
+.navbar-toggler-icon {
+    background-color: #cd7f32; /* Gold color for the toggler icon */
+}
+
+/* Hover effect for Navbar links */
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Change color on hover to white */
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #222, #333); /* Gradient dark grey background */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #cd7f32 !important; /* Gold text color for links */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Change color on hover */
+}

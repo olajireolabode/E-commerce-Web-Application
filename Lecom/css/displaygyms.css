@@ -1,0 +1,52 @@
+/* CSS for display_gyms.php and display_trainers.php */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Table styles */
+.gym-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.gym-table th, .gym-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.gym-table th {
+    background-color: #f2f2f2;
+}
+
+/* Edit and delete links */
+.edit-link, .delete-link {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Add button and back button styles */
+.add-button, .back-button {
+    margin-top: 20px;
+}
+
+.add-button a, .back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #333, #000);
+    color: #cd7f32; /* Gold text color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: flex-start;
+  }
+  
+  .box {
+    border: 2px solid #cd7f32; /* Gold border for boxes */
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Individual box alignments */
+  .left-box {
+    text-align: left;
+  }
+  
+  .middle-right {
+    text-align: right;
+  }
+  
+  .center-align {
+    text-align: center;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box {
+    border: 2px solid #cd7f32; /* Gold border for boxes */
+    background: rgba(0, 0, 0, 0.7); /* Black background */
+    color: #cd7f32; /* Gold text color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    max-width: 80%;
+    width: 100%;
+    position: relative;
+}

@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(135deg, #000, #333); 
+    color: #cd7f32;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h2 {
+    color: #cd7f32;
+}
+
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30%;
+    margin: 1.5%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+/* Add the following styles to center the container */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to control the vertical centering */
+}
+
+/* Add the following styles to style the form container */
+.register-container,
+.login-container {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.trainer-card {
+    background-color: #333; /* Dark grey background color */
+    color: #fff; /* Text color */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #cd7f32 !important; /* Gold text color */
+}
+
+.navbar-custom {
+    background: linear-gradient(135deg, #005, #333) !important; /* Gradient black background */
+    border: 2px solid black !important; /* Black border */
+}
+
+/* Override Bootstrap's default styles */
+.navbar-custom .navbar-light .navbar-brand,
+.navbar-custom .navbar-light .navbar-toggler-icon {
+    filter: invert(85%) sepia(47%) saturate(291%) hue-rotate(166deg) brightness(90%) contrast(83%);
+}
+
+.navbar-custom .navbar-brand .home-link {
+    color: #cd7f32 !important; /* Gold text color */
+}

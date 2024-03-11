@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #000000, #333333); /* Black gradient background */
+    color: #cd7f32; 
+}
+
+.navbar {
+    background: linear-gradient(135deg, #333, #000);
+    padding: 10px 20px; /* Adjust padding as needed */
+    width: 100%; /* Make the navbar span the entire width */
+    position: fixed; /* Fixed position to stay at the top */
+    top: 0; /* Position at the top of the page */
+    z-index: 1000; /* Ensure the navbar is on top of other elements */
+    border: 2px solid #000;
+}
+
+.navbar-toggler-icon {
+    background-color: #cd7f32; /* Set color for the toggler icon */
+}
+
+.navbar-toggler {
+    border-color: #cd7f32; /* Set border color for the toggler button */
+}
+
+.navbar-nav .nav-link {
+    color: #cd7f32; /* Set link color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: black; /* Change text color on hover */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-item .nav-link {
+    color: #cd7f32; /* Set link color to gold */
+}
+
+.form-control {
+    background: linear-gradient(135deg, #000, #333); /* Black gradient for the input boxes */
+    color: #cd7f32; /* Set text color */
+    border: none; /* Remove default borders */
+    border-radius: 5px; /* Apply border radius */
+    padding: 8px 12px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Add spacing between input boxes */
+}
+
+/* Optional: Styles for input focus */
+.form-control:focus {
+    outline: none; /* Remove outline on focus if desired */
+    /* Add additional styles for focus if needed */
+}

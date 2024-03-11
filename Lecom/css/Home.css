@@ -1,0 +1,12 @@
+body {
+    background-color: #ADD8E6 !important;
+    color: navy !important; /* Text color as navy blue */
+    font-family: Arial, sans-serif !important;
+    margin: 20px !important;
+    padding: 0 !important;
+}
+
+/* Specific selector for h2 to ensure it overrides Bootstrap styles */
+body h2 {
+    color: navy !important;
+}

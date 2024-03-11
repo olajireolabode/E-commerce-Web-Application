@@ -1,0 +1,77 @@
+/* LoginStyle.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #333, #000);
+    color: #cd7f32; /* Bronze-like color for all text */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center;
+    min-height: 100vh; /* Ensure the minimum height fills the viewport */
+}
+
+/* Additional styling for the logo */
+.logo {
+    width: 150px;
+    height: 150px;
+    background: url('images/SilverLightSquare.png') no-repeat center;
+    background-size: cover;
+    margin: 0 auto 20px;
+    border: 3px solid #cd7f32; /* Bronze border for the logo */
+    border-radius: 50%;
+}
+
+/* Adjust the color of input fields and text */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 22px); /* Adjusted width to accommodate borders */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #cd7f32; /* Bronze-like border for text inputs */
+    background: transparent;
+    color: #cd7f32; /* Set default text color to bronze */
+    margin-bottom: 10px;
+}
+
+/* Change placeholder text color to gold */
+.login-container input[type="text"]::placeholder,
+.login-container input[type="password"]::placeholder {
+    color: gold;
+}
+
+/* Change text color to gold when input is focused */
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    color: gold;
+}
+
+/* Adjust the color and width of the login button */
+.login-container button[type="submit"] {
+    width: 80%; /* Adjust the width of the button */
+    max-width: 200px; /* Set a maximum width */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    background: #cd7f32; /* Gold background color for the login button */
+    color: black; /* Black text color for the login button */
+    margin-bottom: 10px; /* Add spacing after the button */
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #cd7f32; /* Bronze border for the login form */
+    margin-top: 15px;
+}
+
+.login-container h1 {
+    font-size: 24px; /* Change the font size */
+    font-weight: bold; /* Make the text thicker */
+}
